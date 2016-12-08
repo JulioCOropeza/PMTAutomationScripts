@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25811" started-at="2016-12-08T05:23:28Z" finished-at="2016-12-08T05:23:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25811" started-at="2016-12-08T05:23:28Z" finished-at="2016-12-08T05:23:53Z">
+      <class name="com.Scritps.PMTScripts">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.Scritps.PMTScripts@1ed4ae0f]" name="BeforeClass" is-config="true" duration-ms="25020" started-at="2016-12-07T23:23:28Z" finished-at="2016-12-07T23:23:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="testGoogleSearch()[pri:0, instance:com.Scritps.PMTScripts@1ed4ae0f]" name="testGoogleSearch" duration-ms="4" started-at="2016-12-07T23:23:53Z" finished-at="2016-12-07T23:23:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearch -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.Scritps.PMTScripts@1ed4ae0f]" name="AfterClass" is-config="true" duration-ms="772" started-at="2016-12-07T23:23:53Z" finished-at="2016-12-07T23:23:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- com.Scritps.PMTScripts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
