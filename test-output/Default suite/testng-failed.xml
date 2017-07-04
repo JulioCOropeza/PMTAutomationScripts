@@ -7,6 +7,7 @@
         <methods>
           <include name="BeforeClass"/>
           <include name="testGoogleSearch"/>
+          <include name="AfterClass"/>
         </methods>
       </class> <!-- com.Scritps.PMTScripts -->
     </classes>

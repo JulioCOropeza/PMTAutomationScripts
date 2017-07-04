@@ -8,6 +8,8 @@ import Common.Common;
 import Common.Initial;
 import Actions.logActions;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -29,7 +31,11 @@ public class PMTScripts {
 	public void BeforeClass() {
 		try {
 			common.OpenURL();
+			common.closeChromeExtension();		
 			actions.login();
+			common.closeSavePasswordPopUp();
+			
+			
 		} catch (Exception e) {
 			Assert.fail(e.getMessage());
 		}
@@ -38,7 +44,7 @@ public class PMTScripts {
 	@AfterClass
 	public void AfterClass() {
 		//uncomment this to allow the browser to be close after test
-	//	common.closeBrowser();
+		//common.closeBrowser();
 	}
 
 	@Test
