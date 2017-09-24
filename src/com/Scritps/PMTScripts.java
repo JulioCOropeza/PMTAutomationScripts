@@ -31,10 +31,11 @@ public class PMTScripts {
 	public void BeforeClass() {
 		try {
 			common.OpenURL();
-			common.closeChromeExtension();		
-			actions.login();
+			common.closeChromeExtension();	
+			String userFlag = "1"; // flag to look for into the .xls file
+			Object[] modHeader = common.readModHeaderFile(userFlag, "Parameters");//login info is get from xls file
+			actions.login(modHeader);
 			common.closeSavePasswordPopUp();
-			
 			
 		} catch (Exception e) {
 			Assert.fail(e.getMessage());
